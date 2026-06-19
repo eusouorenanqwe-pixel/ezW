@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigos News</title>
+    <style>
+        /* Configurações gerais do site */
+        body {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            /* Fundo ciano extremamente fraco como você pediu */
+            background-color: #e6f7f8; 
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        /* Título Principal (Estilo Plantão Urgente Vermelho) */
+        h1 {
+            font-family: 'Impact', sans-serif;
+            background-color: #cc0000; /* Vermelho */
+            color: white; /* Letras Brancas */
+            padding: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 0;
+            border-radius: 5px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+        }
+
+        /* Subtítulos das seções mudam de cor conforme o tema da notícia */
+        h3 {
+            font-family: 'Arial Black', sans-serif;
+            color: #cc0000; /* Vermelho para os flagrantes */
+            border-bottom: 2px solid #cc0000;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        /* Deixei o título de anomalias com uma cor roxa/sombria para combinar */
+        .titulo-sombrio {
+            color: #4a148c; 
+            border-bottom: 2px solid #4a148c;
+        }
+
+        /* Deixei o título dos momentos W com uma cor verde legal */
+        .titulo-w {
+            color: #1b5e20; 
+            border-bottom: 2px solid #1b5e20;
+        }
+
+        /* Parágrafo de introdução com o "Tab" */
+        .introducao {
+            font-size: 18px;
+            line-height: 1.6;
+            text-indent: 40px; /* Efeito do Tab */
+            text-align: justify;
+            background-color: white;
+            padding: 15px;
+            border-left: 5px solid #cc0000; /* Detalhe vermelho */
+            border-radius: 4px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.05);
+        }
+
+        /* Blocos brancos para organizar cada notícia separadamente */
+        .noticia-bloco {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.05); /* Sombra leve */
+            width: fit-content; /* Faz o bloco se ajustar ao tamanho da foto */
+            max-width: 100%;
+        }
+
+        /* Estilização padrão de todas as fotos */
+        img {
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            display: block; /* Garante que a legenda fique embaixo */
+            max-width: 100%; /* Evita que fotos muito grandes quebrem a tela do celular */
+            height: auto;
+        }
+
+        /* Legendas das fotos */
+        .legenda {
+            font-size: 15px;
+            line-height: 1.4;
+            color: #444;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body> 
+
+    <h1>🚨 Últimas Notícias de São João Bosco 🚨</h1>
+
+    <p class="introducao">Em São João Bosco, tivemos alguns acontecimentos estranhos ocorrendo no bairro neste último mês, alguns como pessoas sensualizando para câmeras em pleno dia, outros também como anomalias estranhas e potencialmente perigosas para pedestres!</p>
+
+    <h3>Algumas imagens de mendigos sensualizando para câmeras (cuidado, imagens fortes!):</h3>
+
+    <div class="noticia-bloco">
+        <img src="lindo1.jpg" width="200" alt="Magra">
+        <span class="legenda">Acima temos a foto do mendigo sensualizando, conhecido como "Magra" pelos moradores da região.</span>
+    </div>
+
+    <div class="noticia-bloco">
+        <img src="marcosSensual.jpg" width="160" alt="Banhas">
+        <span class="legenda">Acima temos a foto do mendigo denominado "Banhas".</span>
+    </div>
+
+    <div class="noticia-bloco">
+        <img src="hSensual.jpg" width="150" alt="H">
+        <span class="legenda">Agora temos o que dizem ser o mendigo mais perigoso, contendo seus vários apelidos, tais como: H, Jesuá, Help.</span>
+    </div>
+
+    <h3 class="titulo-sombrio">Agora temos algumas imagens de anomalias não identificadas:</h3>
+
+    <div class="noticia-bloco">
+        <img src="marcosObscuro.jpg" width="180" alt="Anomalia faminta">
+        <span class="legenda">Aqui temos uma anomalia à espreita no escuro, com sede de fome. <strong>obs: ELA SEMPRE ESTÁ COM FOME...</strong></span>
+    </div>
+
+    <div class="noticia-bloco">
+        <img src="anomalia61.jpg" width="400" height="300" alt="Ser perigoso">
+        <span class="legenda">Aqui temos um ser perigoso, não só perigoso, como misterioso, algo com que se deve tomar cuidado. Um vacilo, e adeus...</span>
+    </div>
+
+    <div class="noticia-bloco">
+        <img src="hFoto.png" width="250" alt="H obscuro">
+        <span class="legenda">Aqui temos o ser denominado de H, cujas informações são escassas e pouco se sabe. Apenas saiba, que por mais que tenha a cara de leso e amigável, ele tem seus lados obscuros...</span>
+    </div>
+
+    <h3 class="titulo-w">Agora, deixando esse lado estranho e sombrio, temos alguns W momentos registrados pela comunidade:</h3>
+
+    <div class="noticia-bloco">
+        <img src="W67e61.jpg" width="200" alt="Rennz e Banhas">
+        <span class="legenda">Temos aqui a foto de Rennz e Banhas curtindo o momento. W</span>
+    </div>
+
+    <div class="noticia-bloco">
+        <img src="papaiH.jpg" width="200" alt="Papai H">
+        <span class="legenda">Aqui temos a foto de papa h dando sorriso para câmera. W</span>
+    </div>
+
+    <div class="noticia-bloco">
+        <img src="familiaH.jpg" width="200" alt="Família H">
+        <span class="legenda">E para terminar esse simples site de W notícias feito em menos de 2 horas, uma foto da comunidade H.</span>
+    </div>
+    
+</body>
+</html>
